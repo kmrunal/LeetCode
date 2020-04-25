@@ -11,6 +11,9 @@
 # ans_level_order = [[3,9,20,null,null,15,7]]
 
 
+# Time Complexity: O(N^2), where N is the number of nodes.
+# Space Complexity: O(N^2)
+
 class Solution:
     def buildTree(self, preorder: List[int], inorder: List[int]) -> TreeNode:
         if len(preorder) == 0:
